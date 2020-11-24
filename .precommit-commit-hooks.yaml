@@ -1,0 +1,6 @@
+- id: snakefile-fmt
+  name: Format Snakefiles
+  description: This hook formats Snakefiles
+  entry: snakefmt
+  language: system
+  files: '(snakefile|Snakefile|\.smk$)
